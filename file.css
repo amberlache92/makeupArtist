@@ -1,6 +1,6 @@
 body{
 	background-color: gray;
-	background-image: url(chevron.gif);
+	/*background-image: url(chevron2.gif);*/
 	background-repeat: repeat;
 	margin:0;
 	padding:0;
@@ -17,23 +17,49 @@ body{
 
 header{
 	padding-top: 0;
-	background-color:   #bb99ff;
-	height: 100%;
+	
+	/*height: 100%;*/
 	
 }
-#nav{
+h1{
+	font-family: 'shadows into light', cursive;
+	font-size: 450%;
+	rgba()
+}
+p{
+	font-family: arial;
+}
+/*nav-----------------------------*/
+nav{
 	text-align: right;
+	/*background-color:#7c906d;
+*/
 }
-
-#nav a{
+nav a{
 	text-decoration: none;
+	font-family: monospace;
+	
+}
+
+nav a:link{
+	color:#c65e2a;
+}
+nav a:visited{
+	color:#c65e2a;
+}
+nav a:hover{
+	
+	border: 2px solid #c65e2a;
+	font-weight: bold;
 
 }
-img{
-	width:100%;
-	height:500px;
-
+nav a:active {
+	border: 2px solid #c65e2a;
 }
+
+
+
+
 /*main section---------------------------------------------*/
 
 main #welcome{
@@ -41,23 +67,16 @@ main #welcome{
 	width:40%;
 	padding: 10px;
 	line-height: 200%;
+	float:right;
 	
 }
-main #brushes{
-	height: 450px;
-	width:500px;
-	margin-left:100px;
-	margin-top:20px;
-	margin-bottom: 20px;
-    
-	}
+#bride{
+	float:left;
+}
 
-	.floatleft{
-		float:left;
-	}
 /*footer--------------------------------------------------------*/
 footer{
-	background-color:#00ccff;
+	background-color:#2a8fc6;
 	height:50px;
 	padding-top:10px;
 	clear:both;
