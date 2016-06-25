@@ -1,6 +1,6 @@
 body{
-	background-color: gray;
-	background-image: url(chevron.jpg);
+	background-color: #74AFAD;
+	/*background-image: url(chevron2.gif);*/
 	background-repeat: repeat;
 	margin:0;
 	padding:0;
@@ -17,7 +17,7 @@ body{
 
 header{
 	padding-top: 0;
-	background-color:   #bb99ff;
+	/*background-color:   #bb99ff;*/
 	height: 100%;
 	
 }
@@ -57,7 +57,7 @@ main #brushes{
 	}
 /*footer--------------------------------------------------------*/
 footer{
-	background-color:#00ccff;
+	/*background-color:#00ccff;*/
 	height:50px;
 	padding-top:10px;
 	clear:both;
