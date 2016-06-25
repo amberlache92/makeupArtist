@@ -1,5 +1,5 @@
 body{
-	background-color: gray;
+	background-color: #74AFAD;
 	/*background-image: url(chevron2.gif);*/
 	background-repeat: repeat;
 	margin:0;
@@ -12,54 +12,71 @@ body{
 	margin: 0 auto;
 	text-align: center;
 	background-color: #FFFFFF;
-	box-shadow: -5px -5px 5px  #e6e6ff;
+	background-color:#ECECEA;
+ 
 }
 
 header{
 	padding-top: 0;
-	/*background-color:#2a8fc6;*/
-	/*height: 100%;*/
+	text-align: center;
 	
 }
 h1{
 	font-family: 'shadows into light', cursive;
 	font-size: 450%;
-	color:#85D4FF;
+	color:white;
+	text-shadow: 4px 4px 4px  #333333;
 }
 p{
 	font-family: arial;
 }
+header p{
+	color:#404040;
+	font-family: 'Times New Roman';
+	font-size: 2em;
+
+}
 /*nav-----------------------------*/
 nav{
-	text-align: right;
-	/*background-color:#7c906d;
-*/
+	
+		background-color: #558C89;
+		list-style-type: none;
+		box-shadow:2px 2px 2px  #333333;
+	  
+	}
+
+ul li {
+	display: inline-block;
+	
+	line-height: 40px;
+	
+    
 }
 nav a{
-	padding:10px;
+	display:block;
+	width:90px;
+
 }
 
 nav a:link{
 	font-family: monospace;
 	text-decoration: none;
-	color:#85D4FF;
+	color:#ffffff;
 }
 nav a:visited {
-	color:#85D4FF;
+	color:#ffffff;
 
 
 }
 nav a:hover {
-color:#FF9385;
-border: 2px solid #FF9385;
-border-radius: 25px;
+background-color:#ffffff;
+color: #558C89;
+
+
 font-weight: bold;
 }
 
 
-hr{
-	margin-left:30px;
-}
 
 /*main section---------------------------------------------*/
 
@@ -78,7 +95,7 @@ img {
 }
 /*footer--------------------------------------------------------*/
 footer{
-	background-color:#2a8fc6;
+	/*background-color:#2a8fc6;*/
 	height:50px;
 	padding-top:10px;
 	clear:both;
