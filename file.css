@@ -18,7 +18,12 @@ body{
 
 header{
 	padding-top: 0;
+<<<<<<< HEAD
 	text-align: center;
+=======
+	
+	height: 100%;
+>>>>>>> master
 	
 }
 h1{
@@ -95,7 +100,7 @@ img {
 }
 /*footer--------------------------------------------------------*/
 footer{
-	/*background-color:#2a8fc6;*/
+
 	height:50px;
 	padding-top:10px;
 	clear:both;
