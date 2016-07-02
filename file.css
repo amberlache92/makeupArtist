@@ -1,38 +1,45 @@
-body{
-	background-color: #74AFAD;
-	/*background-image: url(chevron2.gif);*/
-	background-repeat: repeat;
+*{
 	margin:0;
 	padding:0;
-
+}
+body{
+		background-color:#ECECEA;
 	
 }
+
 #wrapper{
 	width:70%;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #FFFFFF;
+
 	background-color:#ECECEA;
+
  
 }
-
+/*header---------------------------------------------------*/
 header{
-	padding-top: 0;
-<<<<<<< HEAD
+	background-color: #AFD7D5;
+   
 	text-align: center;
-=======
+
 	
-	height: 100%;
->>>>>>> master
-	
+}
+header p{
+	padding-top: 0;
 }
 h1{
 	font-family: 'shadows into light', cursive;
-	font-size: 450%;
-	color:white;
-	text-shadow: 4px 4px 4px  #333333;
+	font-size: 350%;
+	color:#26726f;
+	/*text-shadow: 4px 4px 4px  #333333;*/
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
+
 p{
+
 	font-family: arial;
 }
 header p{
@@ -41,46 +48,52 @@ header p{
 	font-size: 2em;
 
 }
+.header-break{
+	border:0;
+	border-bottom: 2px solid #26726f;
+	
+	width: 100%;
+}
 /*nav-----------------------------*/
 nav{
 	
-		background-color: #558C89;
+		background-color: #26726f;
 		list-style-type: none;
-		box-shadow:2px 2px 2px  #333333;
-	  
+		text-align: right;
+		height:50px;
+	   margin:20px auto;
+	   margin-bottom: 0;
+		width:70%;
+
 	}
-
-ul li {
+nav li{
 	display: inline-block;
+	padding:15px 5px;
 	
-	line-height: 40px;
-	
-    
-}
-nav a{
-	display:block;
-	width:90px;
 
 }
-
-nav a:link{
-	font-family: monospace;
+nav li a{
+	display: block;
+	letter-spacing: 2.5px;
 	text-decoration: none;
-	color:#ffffff;
+	
+	color:#ECECEA;
 }
-nav a:visited {
-	color:#ffffff;
-
-
+nav a:hover{
+	color:white;
+	font-weight: bold;
+	border-bottom: 1px solid #ECECEA;
+	
 }
-nav a:hover {
-background-color:#ffffff;
-color: #558C89;
-
-
-font-weight: bold;
+nav a:visited{
+	color:#ECECEA;
 }
-
+nav a:active{
+	color:#ffab66;
+	font-weight: bold;
+	border-bottom: 1px solid #ECECEA;
+	
+}
 
 
 /*main section---------------------------------------------*/
@@ -91,12 +104,17 @@ main #welcome{
 	padding: 10px;
 	line-height: 200%;
 	float:right;
+	margin-right: 40px;
 	
 	
 }
 img {
-	height:300px;
-	width:350px;
+	height:500px;
+	width: auto;
+	
+}
+h2 {
+	color:  #ffab66;
 }
 /*footer--------------------------------------------------------*/
 footer{
@@ -109,4 +127,26 @@ footer{
 
 .copy{
 	text-align:right;
+}
+
+/*media query-------------------------------------------------------*/
+
+@media screen and {max-width:590px;} {
+	#wrapper {
+		width:100%;
+	}
+}
+/*serivces page only*/
+section{
+	float: left;
+	width:30%;
+	text-align: justify;
+	margin-left: 20%;
+}
+
+dt{
+	font-size:120%;
+	
+
+
 }
