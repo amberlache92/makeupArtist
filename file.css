@@ -1,9 +1,10 @@
 *{
 	margin:0;
 	padding:0;
+	font-size:1em;
 }
 body{
-		background-color:#ECECEA;
+	color:#2B2B2B;
 	
 }
 
@@ -12,63 +13,54 @@ body{
 	margin: 0 auto;
 	text-align: center;
 
-	background-color:#ECECEA;
 
  
 }
 /*header---------------------------------------------------*/
 header{
-	background-color: #AFD7D5;
+	
    
 	text-align: center;
 
 	
 }
-header p{
-	padding-top: 0;
-}
-h1{
-	font-family: 'shadows into light', cursive;
-	font-size: 350%;
-	color:#26726f;
-	/*text-shadow: 4px 4px 4px  #333333;*/
 
-text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-}
+h1{font-size:3em;	color: #000000;}
+
+	
 
 p{
 
 	font-family: arial;
 }
 header p{
-	color:#404040;
-	font-family: 'Times New Roman';
-	font-size: 2em;
+	color:#2B2B2B;
+	font-family: veranda;
+	font-size: 220%;
 
 }
-.header-break{
+
+/*.header-break{
 	border:0;
 	border-bottom: 2px solid #26726f;
 	
 	width: 100%;
-}
+}*/
 /*nav-----------------------------*/
 nav{
 	
-		background-color: #26726f;
+		
 		list-style-type: none;
-		text-align: right;
-		height:50px;
-	   margin:20px auto;
-	   margin-bottom: 0;
-		width:70%;
+		text-align: center;
+		
+		padding:20px 5px;
+       border:1px solid black;
+        border-right: none;
+        border-left: none;
 
 	}
 nav li{
 	display: inline-block;
-	padding:15px 5px;
 	
 
 }
@@ -76,10 +68,10 @@ nav li a{
 	display: block;
 	letter-spacing: 2.5px;
 	text-decoration: none;
-	
-	color:#ECECEA;
+	font-weight: bold;
+	color:#992222;
 }
-nav a:hover{
+/*nav a:hover{
 	color:white;
 	font-weight: bold;
 	border-bottom: 1px solid #ECECEA;
@@ -91,14 +83,14 @@ nav a:visited{
 nav a:active{
 	color:#ffab66;
 	font-weight: bold;
-	border-bottom: 1px solid #ECECEA;
+	border-bottom: 1px solid #ffab66;
 	
-}
+}*/
 
 
 /*main section---------------------------------------------*/
-
-main #welcome{
+main{padding: 20px;}
+/*main #welcome{
 	text-align:justify;
 	width:40%;
 	padding: 10px;
@@ -107,14 +99,23 @@ main #welcome{
 	margin-right: 40px;
 	
 	
-}
+}*/
+main p{text-align:justify;
+	width:50%;
+	padding: 10px;
+	line-height: 200%;
+	/*float:right;*/
+     text-indent: 20px;
+     font-family:georgia;}
 img {
 	height:500px;
 	width: auto;
 	
 }
+#ashley{height:400px; width:300px; float:right; }
 h2 {
-	color:  #ffab66;
+color:#992222;
+font-size:2.25em;
 }
 /*footer--------------------------------------------------------*/
 footer{
@@ -122,13 +123,23 @@ footer{
 	height:50px;
 	padding-top:10px;
 	clear:both;
+	color:#2B2B2B;
 
+	border-top:1px solid #2B2B2B; ;
+	margin-bottom: 30px;
+   
 }
+
 
 .copy{
-	text-align:right;
+	text-align:center;
 }
+/*Form----------------------------------------------------------*/
+/*icons----------------------------------------------------------*/
 
+ i{
+ 	color: #ffab66;
+ }
 /*media query-------------------------------------------------------*/
 
 @media screen and {max-width:590px;} {
@@ -138,15 +149,19 @@ footer{
 }
 /*serivces page only*/
 section{
-	float: left;
-	width:30%;
+	/*float: left;
+	width:33%;*/
 	text-align: justify;
-	margin-left: 20%;
+	padding:10px 0 0 30px;
 }
-
+section h2{margin}
+.price{float: right;}
 dt{
 	font-size:120%;
+	padding-top: 5px;
 	
-
-
+	/*font-size: 20px;*/
+	
 }
+dd{padding: 10px 0 0 10px;color:#404040;} 
+.price {float:right;}
