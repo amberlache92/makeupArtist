@@ -1,31 +1,47 @@
+/*fonts~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 *{
 	margin:0;
 	padding:0;
 	font-size:1em;
+   	
 }
 body{
-	color:#2B2B2B;
 	
+	
+	font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper{
 	width:70%;
 	margin: 0 auto;
-	text-align: center;
-
+	
+	background-color: #fff;
+    position:relative;
 
  
 }
+/*body text*/
+h1{font-size:3em;	color: #000000; font-family: 'Abril Fatface', cursive;}
+h2{font-size: 2.25em;font-family: 'Abril Fatface', cursive;margin-bottom:20px;
+margin-top: 10px;}
+h3 {
+color:#26726f;
+font-size:1.75em;
+text-align: left;
+}
+p{font-size: 16px;}
 /*header---------------------------------------------------*/
 header{
 	
    
-	text-align: center;
+	text-align: left;
 
 	
 }
 
-h1{font-size:3em;	color: #000000;}
+
 
 	
 
@@ -34,7 +50,8 @@ p{
 	font-family: arial;
 }
 header p{
-	color:#2B2B2B;
+	/*color:#858585;*/
+	color: #666;
 	font-family: veranda;
 	font-size: 220%;
 
@@ -51,7 +68,7 @@ nav{
 	
 		
 		list-style-type: none;
-		text-align: center;
+		text-align: right;
 		
 		padding:20px 5px;
        border:1px solid black;
@@ -69,62 +86,134 @@ nav li a{
 	letter-spacing: 2.5px;
 	text-decoration: none;
 	font-weight: bold;
-	color:#992222;
+	color:#26726f;
 }
-/*nav a:hover{
-	color:white;
-	font-weight: bold;
-	border-bottom: 1px solid #ECECEA;
-	
-}
-nav a:visited{
-	color:#ECECEA;
-}
-nav a:active{
-	color:#ffab66;
-	font-weight: bold;
-	border-bottom: 1px solid #ffab66;
-	
-}*/
+nav li a:visited{color:#15726f;}
+nav li a:hover{text-decoration: underline;}
+
+
 
 
 /*main section---------------------------------------------*/
-main{padding: 20px;}
-/*main #welcome{
-	text-align:justify;
-	width:40%;
+main{position: relative;}
+.paragraph a {color:#26726f;
+	text-decoration: none;
+}
+.paragraph a:hover{text-decoration: underline;}	
+
+.paragraph{text-align:justify;
+	width:60%;
 	padding: 10px;
-	line-height: 200%;
-	float:right;
-	margin-right: 40px;
-	
-	
-}*/
-main p{text-align:justify;
-	width:50%;
-	padding: 10px;
-	line-height: 200%;
-	/*float:right;*/
-     text-indent: 20px;
-     font-family:georgia;}
+	line-height: 2em;
+	text-indent: 15px;
+    font-family:georgia;
+     }
+
+.paragraph p{margin-bottom: 10px;}
+}
+/*blue text on home page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.info{ padding:10px 0 5px 0;
+	color:#26726f;
+	background-color: black;
+	margin-top: 10px;}
+
+
+
+
+.info > ul  {list-style-type: none;}
+/*end of call of action*/
 img {
-	height:500px;
-	width: auto;
+	height:350px;
+	width: 30%;
+  float:right;
+  margin:10px 10px 10px 10px;
+  border:2px solid black;
+}
+#ashley{height:350px; width:300px; float:right; margin-right: 50px; margin }
+
+section{
+	margin: 10px 0 10px 0px;
+	padding: 5px 10px 20px ;
+	text-align: justify;
+	clear:left;
 	
 }
-#ashley{height:400px; width:300px; float:right; }
-h2 {
-color:#992222;
-font-size:2.25em;
+section.right{float:right;
+margin-right:20px;
+margin-top: -350px;
+line-height: 2.5em;
+
 }
+.right a{text-decoration: none; color:#26726f;}
+.right a:hover{text-decoration:underline; none; color:#26726f;}
+
+.light-blue{background-color:#55FEF8;}
+
+.price{float: right;}
+/*FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+form{background-color: #55FEF8;
+	clear:right;
+
+	width: 40%;
+	padding: 20px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+label {float: left;
+width: 100px;
+clear:left;
+padding-right: 10px;
+text-align: right;}
+
+textarea{
+	margin: 10px auto;
+	;
+}
+
+input[type="submit"]{
+	margin-left: 150px;
+}
+
+/*buttons~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.btn{margin:40px 10px;
+text-align: center; }
+.btn a{text-decoration: none;
+border:2px solid #26726f;
+padding: 10px;
+color:#26726f;
+box-shadow: 2px 2px  #000;
+
+}
+
+.btn a:hover{
+	background-color:rgba(85, 254, 248,0.4);
+	font-weight: bold;
+	transition: background-color .5s;
+
+}
+.btn a:active{box-shadow: inset 2px 2px 2px; #000;}
+/*unordered list serives page~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+ dt{color:#26726f; margin-top: 5px;}
+
+
+#faqs dt{
+	
+	color:#26726f;
+	font-size: 1.5em;
+     margin: 5px 0;
+
+	
+}
+dd{ line-height: 2em;} 
+.price {float:right;}
 /*footer--------------------------------------------------------*/
 footer{
 
 	height:50px;
-	padding-top:10px;
+	padding-top: 20px;
 	clear:both;
 	color:#2B2B2B;
-
+     margin-top: 10px;
 	border-top:1px solid #2B2B2B; ;
 	margin-bottom: 30px;
    
@@ -132,14 +221,19 @@ footer{
 
 
 .copy{
-	text-align:center;
+	text-align:right;
+	font-size: 1em;
 }
 /*Form----------------------------------------------------------*/
 /*icons----------------------------------------------------------*/
 
  i{
- 	color: #ffab66;
+ 	color:#26726f;
+ 	margin-right: 10px;
  }
+ i.t_blue:hover {color:#4099FF;}
+ i.f_blue:hover {color:#3b5998;}
+ .icon{text-align: right;}
 /*media query-------------------------------------------------------*/
 
 @media screen and {max-width:590px;} {
@@ -148,20 +242,3 @@ footer{
 	}
 }
 /*serivces page only*/
-section{
-	/*float: left;
-	width:33%;*/
-	text-align: justify;
-	padding:10px 0 0 30px;
-}
-section h2{margin}
-.price{float: right;}
-dt{
-	font-size:120%;
-	padding-top: 5px;
-	
-	/*font-size: 20px;*/
-	
-}
-dd{padding: 10px 0 0 10px;color:#404040;} 
-.price {float:right;}
